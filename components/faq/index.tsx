@@ -17,9 +17,9 @@ export const Faq = () => {
          >
             <Flex align={'center'} direction={'column'}>
                <Text span css={{color: '$blue600'}}>
-                  FAQ
+                  FAQs
                </Text>
-               <Text h2>What is DeDevs Academy and who is it for?</Text>
+               <Text h2>Frequently Asked Questions</Text>
                <Text
                   span
                   css={{
@@ -28,7 +28,7 @@ export const Faq = () => {
                      textAlign: 'center',
                   }}
                >
-                  Developers who are interested in advancing their career and skillset via self-paced courses, live streams, and collaboration.
+                 Questions we are commonly asked by our community.
                </Text>
             </Flex>
 
@@ -41,6 +41,22 @@ export const Faq = () => {
                }}
                direction={'column'}
             >
+<Flex css={{gap: '$5'}} justify={'center'}>
+                  <BoxIcon />
+                  <Flex direction={'column'} css={{gap: '$3'}}>
+                     <Text h3>
+                        What is DeDevs Academy?
+                     </Text>
+                     <Text
+                        span
+                        css={{
+                           color: '$accents8',
+                        }}
+                     >
+                        A premium plan designed for developers who are interested in advancing their career and skillset via self-paced courses, live streams, and collaboration.
+                     </Text>
+                  </Flex>
+               </Flex>
                <Flex css={{gap: '$5'}} justify={'center'}>
                   <BoxIcon />
                   <Flex direction={'column'} css={{gap: '$3'}}>
