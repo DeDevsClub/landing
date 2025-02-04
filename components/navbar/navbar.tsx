@@ -137,12 +137,18 @@ export const Nav = () => {
 
          </Navbar.Collapse> */}
          <Navbar.Content>
-            <ModalLogin />
+            {/* <ModalLogin /> */}
 
             <Navbar.Item>
-               <Button auto flat href="https://whop.com/dedevs">
-                 Join Us
+            <a 
+               href="https://whop.com/dedevs" 
+               target="_blank"
+               rel="noopener noreferrer"
+            >
+               <Button auto flat href="">
+                 Join
                </Button>
+</a>
             </Navbar.Item>
          </Navbar.Content>
       </Navbar>
