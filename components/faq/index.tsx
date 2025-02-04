@@ -103,6 +103,7 @@ export const Faq = () => {
                         }}
                      >
                         Technical workshops, networking opportunities, collaborative projects, learning resources, and curated industry updates.
+                  </Text>
                   </Flex>
                </Flex>
             </Flex>
