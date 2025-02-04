@@ -80,11 +80,6 @@ export const Hero = () => {
                   {subtite}
                </Text>
 
-{/* EMAIL COMPONENT */}
-          The easiest way to build React Landing page in seconds. Save
-                  time and focus on your project.
-               </Text>
-
                <Flex
                   css={{
                      gap: '$8',
