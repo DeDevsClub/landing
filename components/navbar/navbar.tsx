@@ -9,13 +9,11 @@ import {GithubIcon} from '../icons/GithubIcon';
 
 export const Nav = () => {
    const {setTheme} = useNextTheme();
-   const {isDark, type} = useTheme();
+   const {type} = useTheme();
+   const isDark = true
    const collapseItems = [
       'Features',
-      'Customers',
       'Pricing',
-      'Company',
-      'Legal',
    ];
    return (
       <Navbar
@@ -32,7 +30,7 @@ export const Nav = () => {
             <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
             <AcmeLogo />
             <Text b color="inherit" hideIn="xs">
-               ACME
+               DeDevs
             </Text>
             <Navbar.Content
                hideIn="sm"
@@ -57,7 +55,7 @@ export const Nav = () => {
                      </Dropdown.Button>
                   </Navbar.Item>
                   <Dropdown.Menu
-                     aria-label="ACME features"
+                     aria-label="DeDevs Features"
                      css={{
                         '$$dropdownMenuWidth': '340px',
                         '$$dropdownItemHeight': '70px',
@@ -77,7 +75,7 @@ export const Nav = () => {
                      <Dropdown.Item
                         key="autoscaling"
                         showFullDescription
-                        description="ACME scales apps to meet user demand, automagically, based on load."
+                        description="DeDevs scales apps to meet user demand, automagically, based on load."
                         icon={icons.scale}
                      >
                         Autoscaling
@@ -93,7 +91,7 @@ export const Nav = () => {
                      <Dropdown.Item
                         key="production_ready"
                         showFullDescription
-                        description="ACME runs on ACME, join us and others serving requests at web scale."
+                        description="DeDevs runs on DeDevs, join us and others serving requests at web scale."
                         icon={icons.flash}
                      >
                         Production Ready
@@ -116,11 +114,6 @@ export const Nav = () => {
                      </Dropdown.Item>
                   </Dropdown.Menu>
                </Dropdown>
-               <Navbar.Link isActive href="#">
-                  Customers
-               </Navbar.Link>
-               <Navbar.Link href="#">Pricing</Navbar.Link>
-               <Navbar.Link href="#">Company</Navbar.Link>
             </Navbar.Content>
          </Navbar.Brand>
 
@@ -138,54 +131,15 @@ export const Nav = () => {
                   </Link>
                </Navbar.CollapseItem>
             ))}
-            <Navbar.CollapseItem>
-               <Link
-                  color="inherit"
-                  css={{
-                     minWidth: '100%',
-                  }}
-                  target="_blank"
-                  href="https://github.com/Siumauricio/landing-template-nextui"
-               >
-                  <GithubIcon />
-               </Link>
-            </Navbar.CollapseItem>
-            <Navbar.CollapseItem>
-               <Switch
-                  checked={isDark}
-                  onChange={(e) =>
-                     setTheme(e.target.checked ? 'dark' : 'light')
-                  }
-               />
-            </Navbar.CollapseItem>
+
          </Navbar.Collapse>
          <Navbar.Content>
             <ModalLogin />
 
             <Navbar.Item>
-               <Button auto flat href="#">
-                  Start free trial
+               <Button auto flat href="https://whop.com/dedevs">
+                 Join Us
                </Button>
-            </Navbar.Item>
-            <Navbar.Item hideIn={'xs'}>
-               <Link
-                  color="inherit"
-                  css={{
-                     minWidth: '100%',
-                  }}
-                  target="_blank"
-                  href="https://github.com/Siumauricio/landing-template-nextui"
-               >
-                  <GithubIcon />
-               </Link>
-            </Navbar.Item>
-            <Navbar.Item hideIn={'xs'}>
-               <Switch
-                  checked={isDark}
-                  onChange={(e) =>
-                     setTheme(e.target.checked ? 'dark' : 'light')
-                  }
-               />
             </Navbar.Item>
          </Navbar.Content>
       </Navbar>
