@@ -46,8 +46,14 @@ export const Plans = () => {
                 $0{' '}
               </Text>
               <Text css={{ display: 'contents', color: '$accents8' }}>/mo</Text>
-              <Button css={{ mt: '$7', mb: '$12' }}>Get Started</Button>
-
+              
+<a 
+               href="https://whop.com/dedevs" 
+               target="_blank"
+               rel="noopener noreferrer"
+            >
+<Button css={{ mt: '$7', mb: '$12' }}>Get Started</Button>
+</a>
               <Divider />
               <Box as={'ul'}>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
@@ -105,8 +111,12 @@ Our courses are designed to grow your portfolio.
                 $50{' '}
               </Text>
               <Text css={{ display: 'contents', color: '$accents8' }}>/mo</Text>
-              <Button css={{ mt: '$7', mb: '$12' }}>Get Started</Button>
-
+              <a 
+               href="https://whop.com/dedevs-academy" 
+               target="_blank"
+               rel="noopener noreferrer"
+            > 
+<Button css={{ mt: '$7', mb: '$12' }}>Get Started</Button></a>
               <Divider />
               <Box as={'ul'}>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
