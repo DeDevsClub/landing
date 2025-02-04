@@ -27,12 +27,15 @@ export const Nav = () => {
          }}
       >
          <Navbar.Brand>
-            <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
-            <AcmeLogo />
-            <Text b color="inherit" hideIn="xs">
+           {/* <Navbar.Toggle aria-label="toggle navigation" showIn="xs" /> */}
+            {/* <AcmeLogo /> */}
+            <Text b 
+               color="inherit" 
+               // hideIn="xs"
+            >
                DeDevs
             </Text>
-            <Navbar.Content
+            {/* <Navbar.Content
                hideIn="sm"
                css={{
                   pl: '6rem',
@@ -114,10 +117,10 @@ export const Nav = () => {
                      </Dropdown.Item>
                   </Dropdown.Menu>
                </Dropdown>
-            </Navbar.Content>
+            </Navbar.Content> */}
          </Navbar.Brand>
 
-         <Navbar.Collapse>
+         {/* <Navbar.Collapse>
             {collapseItems.map((item, index) => (
                <Navbar.CollapseItem key={item}>
                   <Link
@@ -132,7 +135,7 @@ export const Nav = () => {
                </Navbar.CollapseItem>
             ))}
 
-         </Navbar.Collapse>
+         </Navbar.Collapse> */}
          <Navbar.Content>
             <ModalLogin />
 
