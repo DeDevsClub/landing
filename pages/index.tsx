@@ -5,11 +5,11 @@ import {Hero} from '../components/hero';
 import {Box} from '../components/styles/box';
 import {Features3} from '../components/features3';
 import {Testimonials} from '../components/tesminonials';
-import {Statistics} from '../components/statistics';
+// import {Statistics} from '../components/statistics';
 import {Plans} from '../components/plans';
 import {Faq} from '../components/faq';
 import {Trial} from '../components/trial';
-import {Footer} from '../components/footer';
+// import {Footer} from '../components/footer';
 
 const Home: NextPage = () => {
    return (
@@ -19,11 +19,11 @@ const Home: NextPage = () => {
             <Hero />
             <Features3 />
             <Testimonials />
-            <Statistics />
+            <{/* Statistics /> */}
             <Plans />
             <Faq />
             <Trial />
-            <Footer />
+            {/* <Footer /> */}
          </Box>
       </Layout>
    );
