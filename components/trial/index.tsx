@@ -30,7 +30,10 @@ export const Trial = () => {
                target="_blank"
                rel="noopener noreferrer"
             >
-            <Button>Join Free</Button> </a>
+            <Button
+color="#FEAEE0"
+
+>Join Free</Button> </a>
          </Flex>
 
          <Divider
