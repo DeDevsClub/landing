@@ -21,7 +21,9 @@ export const Features3 = () => {
                   pt: '$20',
                }}
             >
-               <Text span css={{color: '$blue600'}}>
+               <Text span css={{
+                  color: "#FEAEE0"
+               }}>
                   Target Demographic
                </Text>
                <Text h3>Our Members</Text>
