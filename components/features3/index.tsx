@@ -24,7 +24,7 @@ export const Features3 = () => {
                <Text span css={{
                   color: "#FEAEE0"
                }}>
-                  Target Demographic
+                  Demographics
                </Text>
                <Text h3>Our Members</Text>
                <Text
@@ -35,7 +35,7 @@ export const Features3 = () => {
                      textAlign: 'center',
                   }}
                >
-                  Come from all walks of life...
+                  Come from all walks of life.
                </Text>
             </Flex>
             <Flex
