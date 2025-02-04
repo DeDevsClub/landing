@@ -22,9 +22,9 @@ export const Features3 = () => {
                }}
             >
                <Text span css={{color: '$blue600'}}>
-                  Who is DeDevs for?
+                  Target Demographic
                </Text>
-               <Text h3>Blockchain Developers</Text>
+               <Text h3>Our Members</Text>
                <Text
                   span
                   css={{
@@ -33,7 +33,7 @@ export const Features3 = () => {
                      textAlign: 'center',
                   }}
                >
-                  Blockchain developers seeking AI integrations, networking opportunities, and involvement in cutting-edge projects.
+                  Come from all walks of life...
                </Text>
             </Flex>
             <Flex
@@ -45,6 +45,19 @@ export const Features3 = () => {
                   pt: '$14',
                }}
             >
+   <Card css={{mw: '500px'}}>
+                  <Card.Body>
+                     <Flex css={{gap: '0.5rem'}}>
+                        <BoxIcon />
+                        <Flex direction={'column'}>
+                           <Text h5>Blockchain Developers</Text>
+                           <Text span>
+                              Blockchain developers seeking AI integrations, networking opportunities, and involvement in cutting-edge projects.
+                           </Text>
+                        </Flex>
+                     </Flex>
+                  </Card.Body>
+               </Card>
                <Card css={{mw: '500px'}}>
                   <Card.Body>
                      <Flex css={{gap: '0.5rem'}}>
