@@ -92,55 +92,9 @@ export const Hero = () => {
                   }}
                   wrap={'wrap'}
                >
-               {/*
-                  <Input placeholder="Enter your email address" size="lg" />
-                  */}
                   
                   <Button>Join Our Community</Button>
                </Flex>
-               
-               {/* CHECKMARKS */}
-               
-             {
-               showCheckmarks &&  <Flex
-                  <Input placeholder="Enter your email address" size="lg" />
-                  <Button>Start Free Trial</Button>
-               </Flex>
-               <Flex
-                  wrap={'wrap'}
-                  css={{
-                     'gap': '$8',
-                     'py': '$7',
-                     '@sm': {
-                        py: '$4',
-                     },
-                  }}
-               >
-                  <Flex
-                     css={{
-                        color: '$accents7',
-                        alignItems: 'center',
-                     }}
-                  >
-                     <CheckIcon /> No credit card required.
-                  </Flex>
-                  <Flex
-                     css={{
-                        color: '$accents7',
-                        alignItems: 'center',
-                     }}
-                  >
-                     <CheckIcon /> 14-day free trial.
-                  </Flex>
-                  <Flex
-                     css={{
-                        color: '$accents7',
-                        alignItems: 'center',
-                     }}
-                  >
-                     <CheckIcon /> Cancel anytime.
-                  </Flex>
-               </Flex> }
             </Box>
             <Box
                css={{
