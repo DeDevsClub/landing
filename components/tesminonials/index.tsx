@@ -42,8 +42,7 @@ export const Testimonials = () => {
                                  maxWidth: '400px',
                                  color: '$accents8',
                               }}
-                           > DeDevs Club is an absolute game changer for anyone looking to advance their career in blockchain and Al engineering. The wealth of industry insights provided is unparalleled, keeping me up-to-date with the latest trends and breakthroughs. The technical skill development modules are expertly designed, offering hands-on experience and deep dives into complex concepts that have significantly enhanced my proficiency.
-What truly sets this app apart, though, is the vibrant community support. Networking with like-minded professionals and industry leaders has been invaluable for my personal and professional growth. The collaborative environment fosters knowledge sharing and mentorship, creating an enriching learning experience.
+                           > An absolute game changer for anyone looking to advance their career in blockchain and Al engineering. The wealth of industry insights provided is unparalleled, keeping me up-to-date with the latest trends and breakthroughs.
                            </Text>
                            <Text
                               span
