@@ -7,7 +7,7 @@ import {Flex} from '../styles/flex';
 export const Hero = () => {
    const showCheckmarks = false
    const title = "DeDevs"
-   const subtitle = "Online Community for those interested in AI and Blockchain technology"
+   const subtitle = "Enhance your career prospects through industry insights, technical skill development, and community support in blockchain and AI engineering."
 
    return (
       <>
@@ -47,7 +47,7 @@ export const Hero = () => {
                         display: 'inline',
                      }}
                   >
-                     The modern landing page{' '}
+                     Welcome{' '}
                   </Text>
                   <Text
                      h1
@@ -65,7 +65,7 @@ export const Hero = () => {
                      color="primary"
                   >
                      
-                 { "DeDevs" }
+                 { "DeDevs Community" }
                   </Text>
                </Box>
 
@@ -88,7 +88,7 @@ export const Hero = () => {
                   wrap={'wrap'}
                >
                   
-                  <Button>Join Our Community</Button>
+                  <Button>Join (Free)</Button>
                </Flex>
             </Box>
             <Box
