@@ -19,7 +19,7 @@ export const Faq = () => {
                <Text span css={{color: '$blue600'}}>
                   FAQs
                </Text>
-               <Text h2>Frequently Asked Questions</Text>
+               <Text h2>Frequently Asked</Text>
                <Text
                   span
                   css={{
