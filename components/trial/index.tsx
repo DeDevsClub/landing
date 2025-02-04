@@ -14,7 +14,7 @@ export const Trial = () => {
             direction={'column'}
             align={'center'}
          >
-            <Text h3>Join Free Today</Text>
+            <Text h3>(Free) Lifetime Access</Text>
             <Text
                span
                css={{
@@ -23,14 +23,14 @@ export const Trial = () => {
                   textAlign: 'center',
                }}
             >
-               Access our club benefits FREE of charge (forever), while supplies last!
+               Access club benefits FREE of charge (while supplies last).
             </Text>
 <a 
                href="https://whop.com/dedevs" 
                target="_blank"
                rel="noopener noreferrer"
             >
-            <Button>Button</Button> </a>
+            <Button>Join Free</Button> </a>
          </Flex>
 
          <Divider
