@@ -31,13 +31,12 @@ export const Plans = () => {
               <Grid.Container css={{ pl: '$6' }}>
                 <Grid xs={12}>
                   <Text h4 css={{ lineHeight: '$xs' }}>
-                    Free
+                    DeDevs Club
                   </Text>
                 </Grid>
                 <Grid xs={12}>
                   <Text css={{ color: '$accents8' }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    condimentum, nisl ut aliquam lacinia, elit
+                    Enhance your career prospects through industry insights, technical skill development, and community support in blockchain and AI engineering.
                   </Text>
                 </Grid>
               </Grid.Container>
@@ -54,31 +53,31 @@ export const Plans = () => {
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    1 Team Members
+                    Free Forever
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    1 Website
+                    Community Chat
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    1 GB Storage
+                    Community Forum
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    1 TB Transfer
+                    Private Discord
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    Email Support
+                    Request Board
                   </Text>
                 </Flex>
               </Box>
@@ -89,20 +88,21 @@ export const Plans = () => {
               <Grid.Container css={{ pl: '$6' }}>
                 <Grid xs={12}>
                   <Text h4 css={{ lineHeight: '$xs' }}>
-                    Premiun
+                    DeDevs Academy
                   </Text>
                 </Grid>
                 <Grid xs={12}>
                   <Text css={{ color: '$accents8' }}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                    condimentum, nisl ut aliquam lacinia, elit
+  Join to access courses that provide practical applications for building decentralized agents, LLMs, AI bots, websites, and more. 
+
+Our courses are designed to grow your portfolio.
                   </Text>
                 </Grid>
               </Grid.Container>
             </Card.Header>
             <Card.Body css={{ py: '$4' }}>
               <Text css={{ display: 'contents' }} h2>
-                $19{' '}
+                $50{' '}
               </Text>
               <Text css={{ display: 'contents', color: '$accents8' }}>/mo</Text>
               <Button css={{ mt: '$7', mb: '$12' }}>Get Started</Button>
@@ -112,31 +112,31 @@ export const Plans = () => {
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    5 Team Members
+                    Exclusive Masterclasses
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    5 Website
+                    20+ DevTools
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    5 GB Storage
+                    Coding Templates
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    5 TB Transfer
+                    100+ Resources
                   </Text>
                 </Flex>
                 <Flex as={'li'} css={{ py: '$2', gap: '$2' }} align={'center'}>
                   <CheckIcon />
                   <Text span css={{ color: '$accents8' }}>
-                    Email Support
+                    + Club Benefits
                   </Text>
                 </Flex>
               </Box>
