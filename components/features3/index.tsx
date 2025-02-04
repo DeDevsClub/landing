@@ -27,7 +27,7 @@ export const Features3 = () => {
                   Demographics
                </Text>
                <Text h3>Our Members</Text>
-               <Text
+               {/* <Text
                   span
                   css={{
                      maxWidth: '800px',
@@ -36,7 +36,7 @@ export const Features3 = () => {
                   }}
                >
                   Come from all walks of life.
-               </Text>
+               </Text> */}
             </Flex>
             <Flex
                align={'center'}
