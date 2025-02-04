@@ -14,7 +14,7 @@ export const Trial = () => {
             direction={'column'}
             align={'center'}
          >
-            <Text h3>Start your free trials</Text>
+            <Text h3>Join Free Today</Text>
             <Text
                span
                css={{
@@ -23,11 +23,14 @@ export const Trial = () => {
                   textAlign: 'center',
                }}
             >
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-               condimentum, nisl
+               Access our club benefits FREE of charge (forever), while supplies last!
             </Text>
-
-            <Button>Button</Button>
+<a 
+               href="https://whop.com/dedevs" 
+               target="_blank"
+               rel="noopener noreferrer"
+            >
+            <Button>Button</Button> </a>
          </Flex>
 
          <Divider
