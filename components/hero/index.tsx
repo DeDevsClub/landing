@@ -5,6 +5,10 @@ import {Box} from '../styles/box';
 import {Flex} from '../styles/flex';
 
 export const Hero = () => {
+   const showCheckmarks = false
+   const title = "DeDevs"
+   const subtitle = "Online Community for those interested in AI and Blockchain technology".
+
    return (
       <>
          <Flex
@@ -60,7 +64,8 @@ export const Hero = () => {
                      }}
                      color="primary"
                   >
-                     React developers
+                     
+                  {title}
                   </Text>
                </Box>
 
@@ -72,7 +77,11 @@ export const Hero = () => {
                   size={'$lg'}
                   span
                >
-                  The easiest way to build React Landing page in seconds. Save
+                  {subtite}
+               </Text>
+
+{/* EMAIL COMPONENT */}
+          The easiest way to build React Landing page in seconds. Save
                   time and focus on your project.
                </Text>
 
@@ -83,6 +92,17 @@ export const Hero = () => {
                   }}
                   wrap={'wrap'}
                >
+               {/*
+                  <Input placeholder="Enter your email address" size="lg" />
+                  */}
+                  
+                  <Button>Join Our Community</Button>
+               </Flex>
+               
+               {/* CHECKMARKS */}
+               
+             {
+               showCheckmarks &&  <Flex
                   <Input placeholder="Enter your email address" size="lg" />
                   <Button>Start Free Trial</Button>
                </Flex>
@@ -120,7 +140,7 @@ export const Hero = () => {
                   >
                      <CheckIcon /> Cancel anytime.
                   </Flex>
-               </Flex>
+               </Flex> }
             </Box>
             <Box
                css={{
