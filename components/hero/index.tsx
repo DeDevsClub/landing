@@ -7,7 +7,7 @@ import {Flex} from '../styles/flex';
 export const Hero = () => {
    const showCheckmarks = false
    const title = "DeDevs"
-   const subtitle = "Online Community for those interested in AI and Blockchain technology".
+   const subtitle = "Online Community for those interested in AI and Blockchain technology"
 
    return (
       <>
