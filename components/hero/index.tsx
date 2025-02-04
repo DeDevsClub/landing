@@ -55,17 +55,17 @@ export const Hero = () => {
                         display: 'inline',
                      }}
                   >
-                     for{' '}
+                     to{' '}
                   </Text>
                   <Text
                      h1
                      css={{
                         display: 'inline',
                      }}
-                     color="primary"
+                     color="#FEAEE0"
                   >
                      
-                 { "DeDevs Community" }
+                 { "DeDevs" }
                   </Text>
                </Box>
 
@@ -80,7 +80,7 @@ export const Hero = () => {
                   {subtitle}
                </Text>
 
-               <Flex
+              {/* <Flex
                   css={{
                      gap: '$8',
                      pt: '$4',
@@ -89,7 +89,7 @@ export const Hero = () => {
                >
                   
                   <Button>Join (Free)</Button>
-               </Flex>
+               </Flex> */}
             </Box>
             <Box
                css={{
