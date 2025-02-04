@@ -26,7 +26,7 @@ export const Features3 = () => {
                }}>
                   Demographics
                </Text>
-               <Text h3>Our Members</Text>
+               <Text h2>Community Members</Text>
                {/* <Text
                   span
                   css={{
