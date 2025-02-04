@@ -110,7 +110,7 @@ export const Faq = () => {
                   <BoxIcon />
                   <Flex direction={'column'} css={{gap: '$3'}}>
                      <Text h3>
-                        What kind of resources and opportunities does DeDevs Club provide?
+                        What do I get?
                      </Text>
                      <Text
                         span
