@@ -8,7 +8,7 @@ export const Hero = () => {
    const showCheckmarks = false
    const title = "DeDevs"
    const subtitle = "Online Community for those interested in AI and Blockchain technology".
-   
+
    return (
       <>
          <Flex
@@ -81,6 +81,10 @@ export const Hero = () => {
                </Text>
 
 {/* EMAIL COMPONENT */}
+          The easiest way to build React Landing page in seconds. Save
+                  time and focus on your project.
+               </Text>
+
                <Flex
                   css={{
                      gap: '$8',
@@ -99,6 +103,10 @@ export const Hero = () => {
                
              {
                showCheckmarks &&  <Flex
+                  <Input placeholder="Enter your email address" size="lg" />
+                  <Button>Start Free Trial</Button>
+               </Flex>
+               <Flex
                   wrap={'wrap'}
                   css={{
                      'gap': '$8',
