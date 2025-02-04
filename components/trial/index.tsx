@@ -31,8 +31,9 @@ export const Trial = () => {
                rel="noopener noreferrer"
             >
             <Button
-color="#FEAEE0"
-
+            css={{
+color: "#FEAEE0"
+}}
 >Join Free</Button> </a>
          </Flex>
 
