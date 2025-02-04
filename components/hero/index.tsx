@@ -49,14 +49,14 @@ export const Hero = () => {
                   >
                      Welcome{' '}
                   </Text>
-                  <Text
+                  {/* <Text
                      h1
                      css={{
                         display: 'inline',
                      }}
                   >
                      to{' '}
-                  </Text>
+                  </Text> */}
                   <Text
                      h1
                      css={{
@@ -73,6 +73,7 @@ export const Hero = () => {
                   css={{
                      color: '$accents8',
                      maxWidth: '400px',
+                     pb: '$4',
                   }}
                   size={'$lg'}
                   span
@@ -84,6 +85,7 @@ export const Hero = () => {
                   css={{
                      gap: '$8',
                      pt: '$4',
+ width: '100%',
                   }}
                   wrap={'wrap'}
                >
