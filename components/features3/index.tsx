@@ -22,9 +22,9 @@ export const Features3 = () => {
                }}
             >
                <Text span css={{color: '$blue600'}}>
-                  Awesome Feature
+                  Who is DeDevs for?
                </Text>
-               <Text h3>Your title here</Text>
+               <Text h3>Blockchain Developers</Text>
                <Text
                   span
                   css={{
@@ -33,9 +33,7 @@ export const Features3 = () => {
                      textAlign: 'center',
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec
+                  Blockchain developers seeking AI integrations, networking opportunities, and involvement in cutting-edge projects.
                </Text>
             </Flex>
             <Flex
@@ -52,11 +50,9 @@ export const Features3 = () => {
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
+                           <Text h5>AI/ML Engineers</Text>
                            <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
+                              AI/ML experts seeking to integrate agents to blockchain projects while expanding knowledge of distributed systems.
                            </Text>
                         </Flex>
                      </Flex>
@@ -67,11 +63,9 @@ export const Features3 = () => {
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
+                           <Text h5>AI Enthusiasts</Text>
                            <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
+                              Those interested in recent events in AI and low-code solutions to unlock AI superpowers in an intuitive and seamless manner.
                            </Text>
                         </Flex>
                      </Flex>
@@ -92,26 +86,9 @@ export const Features3 = () => {
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
+                           <Text h5>Crypto Traders</Text>
                            <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
-                           </Text>
-                        </Flex>
-                     </Flex>
-                  </Card.Body>
-               </Card>
-               <Card css={{mw: '500px'}}>
-                  <Card.Body>
-                     <Flex css={{gap: '0.5rem'}}>
-                        <BoxIcon />
-                        <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
-                           <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
+                              Fascinated by emergent technologies and how they can benefit from advanced crypto trading strategies that leverage AI.
                            </Text>
                         </Flex>
                      </Flex>
