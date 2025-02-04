@@ -63,7 +63,7 @@ What truly sets this app apart, though, is the vibrant community support. Networ
                                  color: '$accents8',
                               }}
                            >
-                              - CEO at Company
+                              - Developer (Student)
                            </Text>
                         </Flex>
                      </Flex>
