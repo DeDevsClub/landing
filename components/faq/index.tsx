@@ -19,7 +19,7 @@ export const Faq = () => {
                <Text span css={{color: '$blue600'}}>
                   FAQ
                </Text>
-               <Text h2>You Have Questions?</Text>
+               <Text h2>What is DeDevs Academy and who is it for?</Text>
                <Text
                   span
                   css={{
@@ -28,9 +28,7 @@ export const Faq = () => {
                      textAlign: 'center',
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet
-                  aliquet
+                  Developers who are interested in advancing their career and skillset via self-paced courses, live streams, and collaboration.
                </Text>
             </Flex>
 
@@ -47,8 +45,7 @@ export const Faq = () => {
                   <BoxIcon />
                   <Flex direction={'column'} css={{gap: '$3'}}>
                      <Text h3>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit?
+                        Do I need to be an expert?
                      </Text>
                      <Text
                         span
@@ -56,38 +53,16 @@ export const Faq = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet aliquet Lorem ipsum dolor sit amet, consectetur
-                        adipiscing elit. Sed condimentum, nisl ut aliquam
-                        lacinia, nisl nisl aliquet aliquet Lorem ipsum dolor sit
-                        amet, consectetur adipiscing elit. Sed condimentum, nisl
-                        ut aliquam lacinia, nisl nisl aliquet aliquet Lorem
-                        ipsum dolor sit amet, aliquam lacinia, nisl nisl aliquet
+                        No, many of our members are experts in just one field or are simply enthusiasts looking to expand their knowledge.
                         aliquet
-                     </Text>
-                     <Text
-                        span
-                        css={{
-                           color: '$accents8',
-                        }}
-                     >
-                        elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                        nisl aliquet aliquet elit. Sed condimentum, nisl ut
-                        aliquam lacinia, nisl nisl aliquet aliquet elit. Sed
-                        condimentum, nisl ut aliquam lacinia, nisl nisl aliquet
-                        aliquet elit. Sed condimentum, nisl ut aliquam lacinia,
-                        nisl nisl aliquet aliquet
                      </Text>
                   </Flex>
                </Flex>
-
                <Flex css={{gap: '$5'}} justify={'center'}>
                   <BoxIcon />
                   <Flex direction={'column'} css={{gap: '$3'}}>
                      <Text h3>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit?
+                        What makes DeDevs unique?
                      </Text>
                      <Text
                         span
@@ -95,35 +70,31 @@ export const Faq = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet aliquet Lorem ipsum dolor sit amet, consectetur
-                        adipiscing adipiscing elit. Sed condimentum, nisl ut
-                        aliquam lacinia, nisl nisl aliquet aliquet Lorem ipsum
-                        dolor sit amet, consectetur adipiscing elit. Sed
-                        condimentum, nisl ut aliquam lacinia, nisl nisl aliquet
-                        aliquet
-                     </Text>
-                     <Text
-                        span
-                        css={{
-                           color: '$accents8',
-                        }}
-                     >
-                        elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                        nisl aliquet aliquet elit. Sed condimentum, nisl ut
-                        aliquam lacinia, nisl nisl aliquet aliquet elit. Sed
-                        condimentum, aliquet
+                        Our community specifically focuses on the intersection of blockchain and AI and we emphasize practical skill development.
                      </Text>
                   </Flex>
                </Flex>
-
+ <Flex css={{gap: '$5'}} justify={'center'}>
+                  <BoxIcon />
+                  <Flex direction={'column'} css={{gap: '$3'}}>
+                     <Text h3>
+                        How can I collaborate with other members?
+                     </Text>
+                     <Text
+                        span
+                        css={{
+                           color: '$accents8',
+                        }}
+                     >
+                        Members can participate in forums, join project teams, and participate in open source projects via our GitHub Org: DeDevsClub
+                     </Text>
+                  </Flex>
+               </Flex>
                <Flex css={{gap: '$5'}} justify={'center'}>
                   <BoxIcon />
                   <Flex direction={'column'} css={{gap: '$3'}}>
                      <Text h3>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit?
+                        What kind of resources and opportunities does DeDevs Club provide?
                      </Text>
                      <Text
                         span
@@ -131,56 +102,7 @@ export const Faq = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet
-                     </Text>
-                     <Text
-                        span
-                        css={{
-                           color: '$accents8',
-                        }}
-                     >
-                        elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                        nisl aliquet aliquet elit. Sed condimentum, nisl ut
-                        aliquam lacinia, nisl nisl aliquet aliquet elit. Sed
-                        condimentum, Sed condimentum, nisl ut aliquam lacinia,
-                        nisl nisl aliquet aliquet
-                     </Text>
-                  </Flex>
-               </Flex>
-
-               <Flex css={{gap: '$5'}} justify={'center'}>
-                  <BoxIcon />
-                  <Flex direction={'column'} css={{gap: '$3'}}>
-                     <Text h3>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit?
-                     </Text>
-                     <Text
-                        span
-                        css={{
-                           color: '$accents8',
-                        }}
-                     >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet aliquet Lorem ipsum dolor sit amet, consectetur
-                        adipiscing
-                     </Text>
-                     <Text
-                        span
-                        css={{
-                           color: '$accents8',
-                        }}
-                     >
-                        elit. Sed condimentum, nisl ut aliquam lacinia, nisl
-                        nisl aliquet aliquet elit. Sed condimentum, nisl ut
-                        aliquam lacinia, nisl nisl aliquet aliquet elit. Sed
-                        condimentum, nisl ut aliquam lacinia, nisl nisl aliquet
-                        aliquet elit. Sed condimentum, nisl ut aliquam lacinia,
-                        nisl nisl aliquet aliquet
-                     </Text>
+                        Technical workshops, networking opportunities, collaborative projects, learning resources, and curated industry updates.
                   </Flex>
                </Flex>
             </Flex>
