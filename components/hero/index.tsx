@@ -65,7 +65,7 @@ export const Hero = () => {
                      color="primary"
                   >
                      
-                  {title}
+                 { "DeDevs" }
                   </Text>
                </Box>
 
@@ -77,7 +77,7 @@ export const Hero = () => {
                   size={'$lg'}
                   span
                >
-                  {subtite}
+                  {subtitle}
                </Text>
 
                <Flex
