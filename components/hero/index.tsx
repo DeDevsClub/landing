@@ -7,7 +7,7 @@ import {Flex} from '../styles/flex';
 export const Hero = () => {
    const showCheckmarks = false
    const title = "DeDevs"
-   const subtitle = "Enhance your career prospects through industry insights, technical skill development, and community support in blockchain and AI engineering."
+   const subtitle = "Boost your career with insights, skill development, and support in emergent blockchain and AI technologies."
 
    return (
       <>
