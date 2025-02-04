@@ -23,7 +23,7 @@ export const Trial = () => {
                   textAlign: 'center',
                }}
             >
-               Access FREE of charge (while supplies last).
+               Access for FREE while supplies last.
             </Text>
 <a 
                href="https://whop.com/dedevs" 
@@ -31,9 +31,6 @@ export const Trial = () => {
                rel="noopener noreferrer"
             >
             <Button
-            css={{
-color: "#FEAEE0"
-}}
 >Join Free</Button> </a>
          </Flex>
 
