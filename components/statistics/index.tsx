@@ -20,7 +20,7 @@ export const Statistics = () => {
                      textAlign: 'center',
                   }}
                >
-                  Over 8000+ projects completed
+                  Over 0 courses created.
                </Text>
                <Text
                   span
@@ -48,10 +48,10 @@ export const Statistics = () => {
             >
                <Flex direction={'column'}>
                   <Text h2 css={{color: '$blue600'}}>
-                     $500K+
+                     10+
                   </Text>
                   <Text span css={{textAlign: 'center'}} weight={'medium'}>
-                     Revenue
+                     Members
                   </Text>
                </Flex>
                <Flex direction={'column'}>
@@ -64,10 +64,10 @@ export const Statistics = () => {
                </Flex>
                <Flex direction={'column'}>
                   <Text h2 css={{color: '$blue600'}}>
-                     $150+
+                     10+
                   </Text>
                   <Text span css={{textAlign: 'center'}} weight={'medium'}>
-                     Components
+                     Tools
                   </Text>
                </Flex>
                <Flex direction={'column'}>
@@ -75,7 +75,7 @@ export const Statistics = () => {
                      10+
                   </Text>
                   <Text span css={{textAlign: 'center'}} weight={'medium'}>
-                     Employees
+                     Resources
                   </Text>
                </Flex>
             </Flex>
