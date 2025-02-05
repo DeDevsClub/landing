@@ -4,11 +4,11 @@ import Document, {
    Head,
    Main,
    NextScript,
-   DocumentContext,
-   DocumentInitialProps,
+   type DocumentContext,
+   type DocumentInitialProps,
 } from 'next/document';
-import {CssBaseline} from '@nextui-org/react';
-import {globalStyles} from '../styles/global.stitches';
+// import { CssBaseline } from '@heroui/react';
+// import {globalStyles} from '../styles/global.stitches';
 
 class MyDocument extends Document {
    static async getInitialProps(
@@ -29,7 +29,10 @@ class MyDocument extends Document {
                href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
                rel="stylesheet"
             />
-            <Head>{CssBaseline.flush()}</Head>
+            {/* <Head>{CssBaseline.flush()}</Head> */}
+            <Head>
+               <meta name="theme-color" content="#000000" />
+            </Head>
 
             <body>
                <Main />

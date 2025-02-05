@@ -1,35 +1,40 @@
-import {Card, Divider, Text} from '@nextui-org/react';
+import {Card, CardBody, Divider} from '@heroui/react';
 import React from 'react';
 import {BoxIcon} from '../icons/BoxIcon';
 import {Box} from '../styles/box';
 import {Flex} from '../styles/flex';
+import Text from '../text';
 
 export const Features3 = () => {
    return (
       <>
          <Box
-            css={{
-               px: '$6',
-               pb: '$14',
+            style={{
+               paddingLeft: '$6',
+               paddingRight: '$6',
+               paddingBottom: '$14',
             }}
          >
             <Flex
-               direction={'column'}
-               justify={'center'}
-               align={'center'}
-               css={{
-                  pt: '$20',
+               style={{
+                  flexDirection: 'column',
+                  justifyContent: 'center',
+                  alignItems: 'center',
+                  paddingTop: '$20',
                }}
             >
-               <Text span css={{
-                  color: "#FEAEE0"
-               }}>
+               <Text
+                     className="span"
+                     style={{
+                     color: '#FEAEE0',
+                  }}
+               >
                   Demographics
                </Text>
-               <Text h2>Community Members</Text>
+               <Text className="h2">Community Members</Text>
                {/* <Text
                   span
-                  css={{
+                  style={{
                      maxWidth: '800px',
                      color: '$accents8',
                      textAlign: 'center',
@@ -39,81 +44,102 @@ export const Features3 = () => {
                </Text> */}
             </Flex>
             <Flex
-               align={'center'}
-               justify={'center'}
-               wrap={'wrap'}
-               css={{
+               style={{
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  flexWrap: 'wrap',
                   gap: '1rem',
-                  pt: '$14',
+                  paddingTop: '$14',
                }}
             >
-   <Card css={{mw: '500px'}}>
-                  <Card.Body>
-                     <Flex css={{gap: '0.5rem'}}>
+               <Card style={{maxWidth: '500px'}}>
+                  <CardBody>
+                     <Flex style={{gap: '0.5rem'}}>
                         <BoxIcon />
-                        <Flex direction={'column'}>
-                           <Text h5>Blockchain Developers</Text>
-                           <Text span>
+                        <Flex
+                           style={{
+                              flexDirection: 'column',
+                           }}
+                        >
+                           <Text className="h5">Blockchain Developers</Text>
+                           <Text className="span">
                               Blockchain developers seeking AI integrations, networking opportunities, and involvement in cutting-edge projects.
                            </Text>
                         </Flex>
                      </Flex>
-                  </Card.Body>
+                  </CardBody>
                </Card>
-               <Card css={{mw: '500px'}}>
-                  <Card.Body>
-                     <Flex css={{gap: '0.5rem'}}>
+               <Card style={{maxWidth: '500px'}}>
+                  <CardBody>
+                     <Flex style={{gap: '0.5rem'}}>
                         <BoxIcon />
-                        <Flex direction={'column'}>
-                           <Text h5>AI/ML Engineers</Text>
-                           <Text span>
+                        <Flex
+                           style={{
+                              flexDirection: 'column',
+                           }}
+                        >
+                           <Text className="h5">AI/ML Engineers</Text>
+                           <Text className="span">
                               AI/ML experts seeking to integrate agents to blockchain projects while expanding knowledge of distributed systems.
                            </Text>
                         </Flex>
                      </Flex>
-                  </Card.Body>
+                  </CardBody>
                </Card>
-               <Card css={{mw: '500px'}}>
-                  <Card.Body>
-                     <Flex css={{gap: '0.5rem'}}>
+               <Card style={{maxWidth: '500px'}}>
+                  <CardBody>
+                     <Flex style={{gap: '0.5rem'}}>
                         <BoxIcon />
-                        <Flex direction={'column'}>
-                           <Text h5>AI Enthusiasts</Text>
-                           <Text span>
+                        <Flex
+                           style={{
+                              flexDirection: 'column',
+                           }}
+                        >
+                           <Text className="h5">AI Enthusiasts</Text>
+                           <Text className="span">
                               Those interested in recent events in AI and low-code solutions to unlock AI superpowers in an intuitive and seamless manner.
                            </Text>
                         </Flex>
                      </Flex>
-                  </Card.Body>
+                  </CardBody>
                </Card>
             </Flex>
             <Flex
-               align={'center'}
-               wrap={'wrap'}
-               justify={'center'}
-               css={{
+               style={{
+                  flexDirection: 'column',
+                  flexWrap: 'wrap',
                   gap: '1rem',
-                  pt: '$8',
+                  paddingTop: '$8',
+                  alignItems: 'center',
                }}
             >
-               <Card css={{mw: '500px'}}>
-                  <Card.Body>
-                     <Flex css={{gap: '0.5rem'}}>
+               <Card style={{maxWidth: '500px'}}>
+                  <CardBody>
+                     <Flex style={{gap: '0.5rem'}}>
                         <BoxIcon />
-                        <Flex direction={'column'}>
-                           <Text h5>Crypto Traders</Text>
-                           <Text span>
+                        <Flex
+                           style={{
+                              flexDirection: 'column',
+                           }}
+                        >
+                           <Text className="h5">Crypto Traders</Text>
+                           <Text className="span">
                               Fascinated by emergent technologies and how they can benefit from advanced crypto trading strategies that leverage AI.
                            </Text>
                         </Flex>
                      </Flex>
-                  </Card.Body>
+                  </CardBody>
                </Card>
             </Flex>
          </Box>
 
          <Divider
-            css={{position: 'absolute', inset: '0p', left: '0', mt: '$5'}}
+            style={{
+               position: 'absolute',
+               inset: '0p',
+               left: '0',
+               marginTop: '$5',
+            }}
          />
       </>
    );

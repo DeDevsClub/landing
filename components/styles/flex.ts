@@ -1,10 +1,9 @@
-import {styled} from '@nextui-org/react';
+import styled from "styled-components";
 
-export const Flex = styled('div', {
-   boxSizing: 'border-box',
-   display: 'flex',
-   flexDirection: 'row',
-
+export const Flex = styled.div`
+   box-sizing: border-box;
+   display: flex;
+   flex-direction: row;
    variants: {
       direction: {
          column: {
@@ -55,3 +54,4 @@ export const Flex = styled('div', {
       },
    },
 });
+`;
