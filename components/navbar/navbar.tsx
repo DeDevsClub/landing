@@ -1,14 +1,16 @@
-import {Button, Navbar, NavbarBrand, NavbarContent, NavbarItem} from '@heroui/react';
-import Text from '../text';
+import {Button, Dropdown, Link, Navbar, Switch, Text} from '@nextui-org/react';
 import React from 'react';
 import {ModalLogin} from '../modal';
 import {icons} from './icons';
 import {AcmeLogo} from './logo';
-// import {useTheme as useNextTheme, useTheme} from 'next-themes';
-// import {useTheme} from '@heroui/react';
+import {useTheme as useNextTheme} from 'next-themes';
+import {useTheme} from '@nextui-org/react';
 import {GithubIcon} from '../icons/GithubIcon';
 
 export const Nav = () => {
+   const {setTheme} = useNextTheme();
+   const {type} = useTheme();
+   const isDark = true
    const collapseItems = [
       'Features',
       'Pricing',
@@ -16,27 +18,26 @@ export const Nav = () => {
    return (
       <Navbar
          isBordered
-         style={{
+         css={{
             'overflow': 'hidden',
-            // '& .nextui-navbar-container': {
-            //    background: '$background',
-            //    borderBottom: 'none',
-            // },
+            '& .nextui-navbar-container': {
+               background: '$background',
+               borderBottom: 'none',
+            },
          }}
       >
-         <NavbarBrand>
+         <Navbar.Brand>
            {/* <Navbar.Toggle aria-label="toggle navigation" showIn="xs" /> */}
             {/* <AcmeLogo /> */}
-            <Text 
-               className="font-bold" 
-               // color="inherit" 
+            <Text b 
+               color="inherit" 
                // hideIn="xs"
             >
                DeDevs
             </Text>
             {/* <Navbar.Content
                hideIn="sm"
-               style={{
+               css={{
                   pl: '6rem',
                }}
             >
@@ -45,7 +46,7 @@ export const Nav = () => {
                      <Dropdown.Button
                         auto
                         light
-                        style={{
+                        css={{
                            px: 0,
                            dflex: 'center',
                            svg: {pe: 'none'},
@@ -58,7 +59,7 @@ export const Nav = () => {
                   </Navbar.Item>
                   <Dropdown.Menu
                      aria-label="DeDevs Features"
-                     style={{
+                     css={{
                         '$$dropdownMenuWidth': '340px',
                         '$$dropdownItemHeight': '70px',
                         '& .nextui-dropdown-item': {
@@ -117,14 +118,14 @@ export const Nav = () => {
                   </Dropdown.Menu>
                </Dropdown>
             </Navbar.Content> */}
-         </NavbarBrand>
+         </Navbar.Brand>
 
          {/* <Navbar.Collapse>
             {collapseItems.map((item, index) => (
                <Navbar.CollapseItem key={item}>
                   <Link
                      color="inherit"
-                     style={{
+                     css={{
                         minWidth: '100%',
                      }}
                      href="#"
@@ -135,25 +136,21 @@ export const Nav = () => {
             ))}
 
          </Navbar.Collapse> */}
-         <NavbarContent>
+         <Navbar.Content>
             {/* <ModalLogin /> */}
 
-            <NavbarItem>
+            <Navbar.Item>
             <a 
                href="https://whop.com/dedevs" 
                target="_blank"
                rel="noopener noreferrer"
             >
-               <Button 
-                  // auto 
-                  // flat
-                  href="https://whop.com/dedevs"
-               >
+               <Button auto flat href="">
                  Join
                </Button>
-            </a>
-            </NavbarItem>
-         </NavbarContent>
+</a>
+            </Navbar.Item>
+         </Navbar.Content>
       </Navbar>
    );
 };

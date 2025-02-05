@@ -1,8 +1,21 @@
 import '../styles/globals.css';
 import type {AppProps} from 'next/app';
-import { HeroUIProvider } from '@heroui/react';
-import { ThemeProvider as NextThemesProvider } from 'next-themes';
-// import "./index.css";
+import {createTheme, NextUIProvider} from '@nextui-org/react';
+import {ThemeProvider as NextThemesProvider} from 'next-themes';
+
+const lightTheme = createTheme({
+   type: 'dark',
+   theme: {
+      colors: {},
+   },
+});
+
+const darkTheme = createTheme({
+   type: 'dark',
+   theme: {
+      colors: {},
+   },
+});
 
 function MyApp({Component, pageProps}: AppProps) {
    return (
@@ -10,12 +23,13 @@ function MyApp({Component, pageProps}: AppProps) {
          defaultTheme="system"
          attribute="class"
          value={{
-            dark: "dark",
+            light: lightTheme.className,
+            dark: darkTheme.className,
          }}
       >
-         <HeroUIProvider>
+         <NextUIProvider>
             <Component {...pageProps} />
-         </HeroUIProvider>
+         </NextUIProvider>
       </NextThemesProvider>
    );
 }

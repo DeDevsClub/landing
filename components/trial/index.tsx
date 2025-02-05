@@ -1,25 +1,25 @@
-import {Button, Divider} from '@heroui/react';
+import {Button, Divider, Text} from '@nextui-org/react';
 import React from 'react';
 import {Flex} from '../styles/flex';
-import Text from '../text';
 
 export const Trial = () => {
    return (
       <>
          <Flex
-            className="py-20 px-6"
-            style={{
-               justifyContent: 'center',
-               flexDirection: 'column',
-               alignItems: 'center',
+            css={{
+               py: '$20',
+               px: '$6',
             }}
+            justify={'center'}
+            direction={'column'}
+            align={'center'}
          >
-            <Text className="h3">Lifetime Access</Text>
+            <Text h3>Lifetime Access</Text>
             <Text
-               className="span"
-               style={{
+               span
+               css={{
                   color: '$accents8',
-                  paddingBottom: '15px',
+                  pb: '$15',
                   textAlign: 'center',
                }}
             >
@@ -30,17 +30,12 @@ export const Trial = () => {
                target="_blank"
                rel="noopener noreferrer"
             >
-               <Button>Join Free</Button>
-            </a>
+            <Button
+>Join Free</Button> </a>
          </Flex>
 
          <Divider
-            style={{
-               position: "absolute",
-               inset: "0p",
-               left: "0",
-               marginTop: "10px",
-            }}
+            css={{position: 'absolute', inset: '0p', left: '0', mt: '$5'}}
          />
       </>
    );

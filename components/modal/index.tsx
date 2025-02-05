@@ -2,13 +2,12 @@ import React from 'react';
 import {
    Modal,
    Input,
+   Row,
    Checkbox,
    Button,
+   Text,
    Navbar,
-   ModalHeader,
-   ModalBody,
-   ModalFooter,
-} from '@heroui/react';
+} from '@nextui-org/react';
 
 export const ModalLogin = () => {
    const [visible, setVisible] = React.useState(false);
@@ -19,26 +18,23 @@ export const ModalLogin = () => {
    };
    return (
       <div>
-         {/* todo: Link */}
-         <Navbar onClick={handler}>Login</Navbar>
-         {/* <Modal
+         <Navbar.Link onClick={handler}>Login</Navbar.Link>
+         <Modal
             closeButton
-            // blur
+            blur
             aria-labelledby="modal-title"
-            // open={visible}
-            // todo: verify this
-            onOpenChange={setVisible}
+            open={visible}
             onClose={closeHandler}
-         > */}
-            {/* <ModalHeader>
+         >
+            <Modal.Header>
                <Text id="modal-title" size={18}>
                   Welcome to
                   <Text b size={18}>
                      NextUI
                   </Text>
                </Text>
-            </ModalHeader>
-            <ModalBody>
+            </Modal.Header>
+            <Modal.Body>
                <Input
                   clearable
                   bordered
@@ -63,16 +59,16 @@ export const ModalLogin = () => {
                   </Checkbox>
                   <Text size={14}>Forgot password?</Text>
                </Row>
-            </ModalBody>
-            <ModalFooter>
+            </Modal.Body>
+            <Modal.Footer>
                <Button auto flat color="error" onClick={closeHandler}>
                   Close
                </Button>
                <Button auto onClick={closeHandler}>
                   Sign in
                </Button>
-            </ModalFooter> */}
-         {/* </Modal> */}
+            </Modal.Footer>
+         </Modal>
       </div>
    );
 };

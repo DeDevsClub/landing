@@ -1,5 +1,4 @@
-import { Divider } from '@heroui/react';
-import Text from '../text';
+import {Button, Divider, Text} from '@nextui-org/react';
 import React from 'react';
 import {BoxIcon} from '../icons/BoxIcon';
 import {FeatureIcon} from '../icons/FeatureIcon';
@@ -9,39 +8,32 @@ export const Features2 = () => {
    return (
       <>
          <Flex
-            // direction={'column'}
-            style={{
-               gap: '1rem',
-               paddingTop: '$20',
-               justifyContent: 'center',
-               alignItems: 'center',
-               paddingLeft: '$6',
-               paddingRight: '$6',
-               flexDirection: 'column',
-               // '@sm': {
-               //    gap: '5rem',
-               //    flexDirection: 'row-reverse',
-               //    px: '$16',
-               // },
-               // '@md': {
-               //    justifyContent: 'space-evenly',
-               // },
+            direction={'column'}
+            css={{
+               'gap': '1rem',
+               'pt': '$20',
+               'justifyContent': 'center',
+               'alignItems': 'center',
+               'px': '$6',
+
+               '@sm': {
+                  gap: '5rem',
+                  flexDirection: 'row-reverse',
+                  px: '$16',
+               },
+               '@md': {
+                  justifyContent: 'space-evenly',
+               },
             }}
          >
-            <Flex
-               style={{
-                  flexDirection: 'column',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-               }}
-            >
-               <Text className="span" color="primary">
+            <Flex direction="column" align={'center'}>
+               <Text span css={{color: '$blue600'}}>
                   Awesome Feature
                </Text>
-               <Text className="h3">Your title here</Text>
+               <Text h3>Your title here</Text>
                <Text
-                  className="span"
-                  style={{
+                  span
+                  css={{
                      maxWidth: '400px',
                      color: '$accents8',
                   }}
@@ -53,29 +45,26 @@ export const Features2 = () => {
                </Text>
 
                <Flex
-                  className="py-10"
-                  style={{
-                     justifyContent: 'center',
-                     flexWrap: 'wrap',
+                  justify={'center'}
+                  wrap={'wrap'}
+                  css={{
+                     py: '$10',
                   }}
                >
                   <Flex
-                     style={{
-                        paddingTop: '$10',
-                        paddingBottom: '$10',
+                     css={{
+                        py: '$10',
                         gap: '$5',
                      }}
                   >
                      <BoxIcon />
-                     <Flex
-                        style={{
-                           flexDirection: 'column',
-                        }}
-                     >
-                        <Text weight={'bold'}>Your title here</Text>
+                     <Flex direction={'column'}>
+                        <Text h4 weight={'medium'}>
+                           Your title here
+                        </Text>
                         <Text
-                           className="span"
-                           style={{
+                           span
+                           css={{
                               maxWidth: '325px',
                               color: '$accents8',
                            }}
@@ -87,24 +76,19 @@ export const Features2 = () => {
                      </Flex>
                   </Flex>
                   <Flex
-                     style={{
-                        paddingTop: '$10',
-                        paddingBottom: '$10',
+                     css={{
+                        py: '$10',
                         gap: '$5',
                      }}
                   >
                      <BoxIcon />
-                     <Flex
-                        style={{
-                           flexDirection: 'column',
-                        }}
-                     >
-                        <Text className="h4" weight={'bold'}>
+                     <Flex direction={'column'}>
+                        <Text h4 weight={'medium'}>
                            Your title here
                         </Text>
                         <Text
-                           className="span"
-                           style={{
+                           span
+                           css={{
                               maxWidth: '325px',
                               color: '$accents8',
                            }}
@@ -117,22 +101,13 @@ export const Features2 = () => {
                   </Flex>
                </Flex>
             </Flex>
-            <Flex
-               style={{
-                  alignItems: 'center',
-               }}
-            >
+            <Flex align={'center'}>
                <FeatureIcon />
             </Flex>
          </Flex>
 
          <Divider
-            style={{
-               position: "absolute",
-               inset: "0p",
-               left: "0",
-               marginTop: "$5",
-            }}
+            css={{position: 'absolute', inset: '0p', left: '0', mt: '$5'}}
          />
       </>
    );

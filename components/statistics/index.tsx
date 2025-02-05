@@ -1,109 +1,89 @@
-import { Divider } from "@heroui/react";
-import React from "react";
-import { Box } from "../styles/box";
-import { Flex } from "../styles/flex";
-import Text from "../text";
+import {Button, Divider, Text} from '@nextui-org/react';
+import React from 'react';
+import {Box} from '../styles/box';
+import {Flex} from '../styles/flex';
 
 export const Statistics = () => {
-	return (
-		<>
-			<Box
-				className="px-6"
-				style={{
-					paddingTop: "$20",
-					paddingBottom: "$16",
-				}}
-			>
-				<Flex style={{ flexDirection: "column", alignItems: "center" }}>
-					<Text
-						className="h3"
-						style={{
-							textAlign: "center",
-						}}
-					>
-						Over 0 courses created.
-					</Text>
-					<Text
-						className="span"
-						style={{
-							maxWidth: "800px",
-							textAlign: "center",
-						}}
-					>
-						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto
-						provident omnis deleniti temporibus pariatur corporis aperiam
-					</Text>
-				</Flex>
-				<Flex
-					// className="flex flex-wrap justify-center gap-16 pt-16"
-					className="sm:gap-10rem"
-					style={{
-						flexWrap: "wrap",
-						justifyContent: "center",
-						flexDirection: "row",
-						gap: "4rem",
-						paddingTop: "$16",
-					}}
-				>
-					<Flex style={{ flexDirection: "column" }}>
-						<Text className="h2" style={{ color: "$blue600" }}>
-							10+
-						</Text>
-						<Text
-							className="span"
-							style={{ textAlign: "center" }}
-							weight={"normal"}
-						>
-							Members
-						</Text>
-					</Flex>
-					<Flex style={{ flexDirection: "column" }}>
-						<Text className="h2" style={{ color: "$blue600" }}>
-							10+
-						</Text>
-						<Text
-							className="span"
-							style={{ textAlign: "center" }}
-							weight={"normal"}
-						>
-							Products
-						</Text>
-					</Flex>
-					<Flex style={{ flexDirection: "column" }}>
-						<Text className="h2" style={{ color: "$blue600" }}>
-							10+
-						</Text>
-						<Text
-							className="span"
-							style={{ textAlign: "center" }}
-							weight={"normal"}
-						>
-							Tools
-						</Text>
-					</Flex>
-					<Flex style={{ flexDirection: "column" }}>
-						<Text className="h2" style={{ color: "$blue600" }}>
-							10+
-						</Text>
-						<Text
-							className="span"
-							style={{ textAlign: "center" }}
-							weight={"normal"}
-						>
-							Resources
-						</Text>
-					</Flex>
-				</Flex>
-			</Box>
+   return (
+      <>
+         <Box
+            css={{
+               pt: '$20',
+               pb: '$16',
+               px: '$6',
+            }}
+         >
+            <Flex direction={'column'} align={'center'}>
+               <Text
+                  h3
+                  css={{
+                     textAlign: 'center',
+                  }}
+               >
+                  Over 0 courses created.
+               </Text>
+               <Text
+                  span
+                  css={{
+                     maxWidth: '800px',
+                     textAlign: 'center',
+                  }}
+               >
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Iusto provident omnis deleniti temporibus pariatur corporis
+                  aperiam
+               </Text>
+            </Flex>
+            <Flex
+               direction={'row'}
+               wrap={'wrap'}
+               justify={'center'}
+               css={{
+                  'gap': '4rem',
+                  'pt': '$16',
+                  '@sm': {
+                     gap: '10rem',
+                  },
+               }}
+            >
+               <Flex direction={'column'}>
+                  <Text h2 css={{color: '$blue600'}}>
+                     10+
+                  </Text>
+                  <Text span css={{textAlign: 'center'}} weight={'medium'}>
+                     Members
+                  </Text>
+               </Flex>
+               <Flex direction={'column'}>
+                  <Text h2 css={{color: '$blue600'}}>
+                     10+
+                  </Text>
+                  <Text span css={{textAlign: 'center'}} weight={'medium'}>
+                     Products
+                  </Text>
+               </Flex>
+               <Flex direction={'column'}>
+                  <Text h2 css={{color: '$blue600'}}>
+                     10+
+                  </Text>
+                  <Text span css={{textAlign: 'center'}} weight={'medium'}>
+                     Tools
+                  </Text>
+               </Flex>
+               <Flex direction={'column'}>
+                  <Text h2 css={{color: '$blue600'}}>
+                     10+
+                  </Text>
+                  <Text span css={{textAlign: 'center'}} weight={'medium'}>
+                     Resources
+                  </Text>
+               </Flex>
+            </Flex>
+         </Box>
 
-			<Divider
-				style={{
-					position: "absolute",
-					inset: "0p",
-					left: "0",
-					marginTop: "$5",
-				}}
-			/>
-		</>
-	);
+         <Divider
+            css={{position: 'absolute', inset: '0p', left: '0', mt: '$5'}}
+         />
+      </>
+   );
 };
